@@ -1,0 +1,26 @@
+
+
+## **ESP8266 — Kitchen Node Wiring**
+
+| ESP8266 Pin | Connected To        | Notes                  |
+| ----------- | ------------------- | ---------------------- |
+| D2          | DHT11 DATA          | Temperature & Humidity |
+| A0          | MQ2 ANALOG          | Gas Sensor Reading     |
+| 3.3V        | VCC of both sensors | Power Supply           |
+| GND         | GND of both sensors | Ground                 |
+
+---
+
+## **ESP32 — Main Hub Wiring**
+
+| ESP32 Pin | Connected To        | Notes                  |
+| --------- | ------------------- | ---------------------- |
+| GPIO4     | DHT11 DATA          | Temperature & Humidity |
+| GPIO34    | MQ2 ANALOG          | Gas Sensor Reading     |
+| GPIO35    | Water Sensor ANALOG | Water Level Detection  |
+| GPIO18    | Passive Buzzer +    | Alarm Output           |
+| 3.3V      | VCC of all sensors  | Power Supply           |
+| GND       | GND of all sensors  | Ground                 |
+
+---
+
